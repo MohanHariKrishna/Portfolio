@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-----------Icons---------->
+  
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+       
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+        
+    
+
+    <body id="body">
+    
+      <!--header-->
+      <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">Mohan</a>
+          <!--href = # means  html element id to which the window should be scrolled -->
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">
+                  <i class="uil uil-house-user nav__icon"></i> HOME
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">
+                  <i class="uil uil-user-square nav__icon"></i> ABOUT
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">
+                  <i class="uil uil-file nav__icon"></i> SKILLS
+                </a>
+              </li>
+          <!--    <li class="nav__item">
+                <a href="#services" class="nav__link">
+                  <i class="uil uil-briefcase-alt nav__icon"></i> SERVICES
+                </a>
+              </li>-->
+              <li class="nav__item">
+                <a href="#portfolio" class="nav__link">
+                  <i class="uil uil-brackets-curly nav__icon"></i>  PROJECTS
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">
+                  <i class="uil uil-message nav__icon"></i> CONTACT ME
+                </a>
+              </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+          </div>
+          
+          <div class="nav__btns">
+            <!--Dark mode-->
+            
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+            
+            <div class="nav__toggle" id="nav-toggle">
+    
+              <i class="uil uil-apps"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="home section" id="home">
+          <div class="home__container container grid">
+            <div class="home__content grid">
+              <div class="home__social">
+                <a href="https://www.linkedin.com/in/mohan-hari-krishna-421b5a155/" target="_blank" class="home__social-icon">
+                  <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://github.com/" target ="_blank"class="home__social-icon">
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.instagram.com/mohan_hari_krishna" target ="_blank" class="home__social-icon">
+                  <i class="uil uil-instagram-alt"></i>
+                </a>
+                
+              </div>
+                <!--<div class="home__img">
+                <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" mask-type="alpa">
+                  <path fill="#FF0066" d="M51.4,-25.4C65,-6.2,73.2,20.4,63.7,38.7C54.3,57,27.1,66.9,1.2,66.3C-24.8,65.6,-49.5,
+                  54.2,-59.3,35.8C-69.1,17.3,-64,-8.3,-51.6,-26.9C-39.2,-45.4,-19.6,-56.9,-0.4,-56.7C18.9,-56.5,37.8,-44.6,51.4,-25.4Z" 
+                  transform="translate(100 100)" />
+                </mask>
+                <g mask="url(#mask0)"> 
+                  <path fill="#FF0066" d="M51.4,-25.4C65,-6.2,73.2,20.4,63.7,38.7C54.3,57,27.1,66.9,1.2,66.3C-24.8,65.6,-49.5,
+                  54.2,-59.3,35.8C-69.1,17.3,-64,-8.3,-51.6,-26.9C-39.2,-45.4,-19.6,-56.9,-0.4,-56.7C18.9,-56.5,37.8,-44.6,51.4,-25.4Z" 
+                  transform="translate(100 100)" />
+                  <image class="home__blob-img" x='12' y='18' xlink:href="me1.jpg"/>
+                  </g>
+                </svg>
+              </div>-->
+              
+             <div class=home__img>
+                <img src="mainimg.jpg" height="250" width="250" alt="" class="mainimg">
+              </div>
+              
+              <div class="home__data">
+                <h1 class="home__title">Hi, I am Mohan</h1>
+                <h3 class="home__subtitle">Software Developer</h3>
+                <p class="home__desc">ahfjfk nhajfjaf jakfkaflfal jakfkafkklaf kakflaewoflflf;laf jkakfkafkfkakf iroeoprehfnf mbnckia
+                  hjajfjaf kafascnacnca iquruqiuroq lkkaf nandfnanfnfan.</p>
+              </div>
+            </div>
+            <div class="home__scroll">
+              <a href="#about" class="home__scrollbtn btn-flex">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+               <span class="home__scroll-name ">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-down"></i>
+
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!--ABOUT-->
+        <section class="about section" id="about">
+          <h2 class="section__title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About me</h2>
+          <span class="section__subtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Introduction</span>
+          <div class="about__container container grid">
+            <img src="myimage.jpg " alt="" class="about__img" id="aboutimg">
+            <div class="about__data">
+              <p class="about__description">
+                Software developer, with two years experience and insightful knowledge on backend technologies like Java, Oracle and 
+                Spring framework and spring-boot, delivering quality work
+              </p>
+              <div class="about__info">
+                <div>
+                  <span class="about__info-title">02+</span>
+                  <span class="about__info-name">Years<br>experience <br>at<br>Infosys</span >
+                </div>
+              </div>
+              <div class="about__buttons">
+                <a download="" href="mohanresume.docx" class="button btn-flex">
+                  Download My Resume<i class="uil uil-download-alt button__icon"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+<!--skills-->
+        <section class="skill section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <span class="section__subtitle">My Technical Level</span>
+          <div class="skills__container container grid">
+            <div>
+              <!--Skill-1-->
+              <div class="skills__content skills__open">
+                <div class="skills__header">
+                  <i class="uil uil-server-network skills__icon"></i>
+                  <div>
+                    <h1 class="skills__title">Backend Developer</h1>
+                    <span class="skills__subtitle">More than 2 years </span>
+                  </div>
+          
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                  <div class="skills__list grid">
+                    <div class="skills__data">
+                      <br>
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Java</h3>
+                          <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__java"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                      <div class="skills__titles">
+                        <h3 class="skills__name">Python</h3>
+                        <span class="skills__number">75%</span>
+                      </div>
+                      <div class="skills__bar">
+                        <span class="skills__percentage skills__python"></span>
+                      </div>
+                  </div>
+                    <div class="skills__data">
+                      <div class="skills__titles">
+                        <h3 class="skills__name">MySQL</h3>
+                        <span class="skills__number">70%</span>
+                        </div>
+                      <div class="skills__bar">
+                        <span class="skills__percentage skills__mysql"></span>
+                      </div>
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Oracle</h3>
+                      <span class="skills__number">80%</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__oracle"></span>
+                    </div>
+                </div>
+               <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Spring Framework</h3>
+                      <span class="skills__number">60%</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__sf"></span>
+                    </div>
+                </div>
+                  </div>
+              </div>
+               <!--Skill-2-->
+               <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="uil uil-brackets-curly skills__icon"></i>
+                  <div>
+                    <br>
+                    <h1 class="skills__title">Frontend Developer</h1>
+                    <span class="skills__subtitle">1 Year </span>
+                  </div>
+                  
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                  <div class="skills__list grid">
+                    <div class="skills__data">
+                      <br>
+                        <div class="skills__titles">
+                        
+                          <h3 class="skills__name">HTML</h3>
+                          <span class="skills__number">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__html"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                      <div class="skills__titles">
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__number">60%</span>
+                      </div>
+                      <div class="skills__bar">
+                        <span class="skills__percentage skills__css"></span>
+                      </div>
+                  </div>
+                    <div class="skills__data">
+                      <div class="skills__titles">
+                        <h3 class="skills__name">JavaScript</h3>
+                        <span class="skills__number">60%</span>
+                      </div>
+                      <div class="skills__bar">
+                        <span class="skills__percentage skills__js"></span>
+                      </div>
+                  </div>
+                  
+                  </div>
+              </div>
+
+
+            </div>
+
+
+          </div>
+        </section>
+    <!--qualification-->
+    <section class="qualification section">
+          <h2 class="section__title">&nbsp;Qualification and Experience</h2>
+          <span class="section__subtitle">My Education Qualification and work experience</span>
+          <div class="qualification__container container">   
+        <h3 class="ug"> <i class="uil uil-graduation-cap qualification__icon"></i>Under Graduation&nbsp; 
+          (<i class="uil uil-calendar-alt cal">2015-2019</i>) </h3>
+      <p class="portfolio__description">Completed Under Graduation from Sri Indu College of Engineering and Technology, Hyderabad,  
+        in the year 2019, from Computer Science and Engineering branch.
+      </p>
+      <br>
+      <h3 class="ug"><i class="uil uil-briefcase-alt qualification__icon"></i>Work Experience&nbsp; 
+        (<i class="uil uil-calendar-alt cal">2019-2021</i>)</h3>
+      <p class="portfolio__description">Worked as java developer for two years at Infosys, under designation Systems Engineer.</p>
+          </div>
+        <!--      <div class="qualification__tabs">
+              <div class="qualification__button btn-flex">
+                
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+              <div class="qualification__button btn-flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
+              </div>
+            </div>
+            <div class="qualification__sections">
+              qualification content 1
+              <div class="qualification__content">
+                qualification 1
+                  <div class="qualification__data1">
+              
+                      
+                    <div>
+                      <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="qualification__title">B.Tech</h3>
+                        <h4 class="qualification__course">CSE</h1>
+                        <span class="qualification__subtitle">Sri Indu College of Engineering and Technology</span>
+                      
+                        <div class="qualification__calender">
+                      
+                          <i class="uil uil-calendar-alt"></i>
+                          2015-2019
+                        </div>
+                    </div>
+                   
+                  </div>
+                     
+              </div>
+              
+            
+             
+               <div class="qualification__content">
+                qualification 1
+                  <div class="qualification__data2">
+                  
+                    <div>
+                        <h3 class="qualification__title">Systems Engineer</h3>
+                        <h4 class="qualification__course">Infosys Technologies/h1>
+                        <span class="qualification__subtitle">Infosys Technologies</span>
+                        <div class="qualification__calender">
+                          <i class="uil uil-calendar-alt"></i>
+                          2019-2021
+                        </div>
+                    </div>
+                    <div>
+                      <span class="qualification__rounder"></span>
+                      <span class="qualification__line"></span>
+                    </div>
+                  </div>
+                     
+              </div>
+
+              
+          
+            </div>
+    
+
+          <table class= "qualification__table">
+            <tr>
+                <th class=qualification__button>
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                    Under Graduation</th>
+                  </tr>
+                  <tr>
+                    <td> <h4 class="qualification__course">Computer Science</h4>
+                      <span class="qualification__subtitle">Sri Indu College of Engineering and Technology</span>
+                    
+                      <div class="qualification__calender">
+                    
+                        <i class="uil uil-calendar-alt"></i>
+                        2015-2019</td></tr>
+             
+                        
+              <tr>          
+          <th class="qualification__button">
+          
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>Work Experience</th>
+                    </tr>
+                    <tr>
+                      <td>
+                    <br><h4 class="qualification__title">Systems Engineer</h4>
+                        <h4 class="qualification__course">Infosys Technologies/h1>
+                        <span class="qualification__subtitle">Infosys (Hyderabad,India)</span>
+                        <div class="qualification__calender">
+                          <i class="uil uil-calendar-alt"></i>
+                          2019-2021
+                        </td>
+                      </tr>
+              
+                    
+                  <h4 class="qualification__course">Computer Science</h4>
+                    <span class="qualification__subtitle">Sri Indu College of Engineering and Technology</span>
+                  
+                    <div class="qualification__calender">
+                  
+                      <i class="uil uil-calendar-alt"></i>
+                      2015-2019
+                        
+                  
+                  
+            
+        </table>
+      -->
+    </section>
+        
+    <section class="portfolio section" id="portfolio">
+
+    
+      <h2 class="section__title">Projects Done</h2>
+      <div class="portfolio__container container mySwiper">
+        <div class="swiper-wrapper">
+          <!--infy proj-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="cs.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Customer Relation Management Application</h3>
+              <p class="portfolio__description">Developed an application using Java and Spring boot framework 
+                to manage customer service activities of a client of my previous organisation(Infosys).</p>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+            </div>
+
+           
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+              </div>
+              <div class="swiper-pagination"></div>
+          
+
+      
+            
+          </div>
+
+          <!--My proj-->
+          <div class="portfolio__content grid swiper-slide">
+            <br>
+            <br>
+            <br>
+            
+            <img src="port.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">My Portfolio Website</h3>
+              <p class="portfolio__description">Developed my own responsive portfolio website which is adaptable
+                 to all devices to showcase my skills and projects done.
+              </p>
+            </div>
+            <div class="swiper-button-next">
+
+              <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+            </div>
+
+            
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+          
+          </div>
+
+      
+
+          
+        </div>
+        
+       
+        
+      </div>
+    </section>
+
+
+    <!--contact me-->
+
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in Touch</span>
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__info">
+              <i class="uil uil-phone contact__icon"></i>
+                <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">9441364030</span>
+            </div>
+
+          </div>
+          <div class="contact__info">
+            <i class="uil uil-envelope contact__icon"></i>
+              <div>
+            <h3 class="contact__title">Email</h3>
+            <span class="contact__subtitle">mohanharikrishna27@gmail.com</span>
+          </div>
+
+        </div>
+        <div class="contact__info">
+          <i class="uil uil-map-marker  contact__icon"></i>
+            <div>
+          <h3 class="contact__title">Location</h3>
+          <span class="contact__subtitle">Hyderabad</span>
+        </div>
+
+      </div>
+        </div>
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for=" " class="contact__label">Name</label>
+              <input type="text" class="contact__input">
+            </div>
+            <div class="contact__content">
+              <label for=" " class="contact__label">Email</label>
+              <input type="email" class="contact__input">
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for=" " class="contact__label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+             <a href="" class="button btn-flex">
+                                    Send Message
+               <i class="uil uil-message button__icon"></i>
+             </a>
+        </form>
+        </div>
+    </section>
+      </main>
+      <!--Footer-->
+
+      <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div>
+              <h1 class="footer__title">Mohan Hari Krishna</h1>
+              <span class="footer__title">Software Developer</span>
+            </div>
+            <ul class="footer__links">
+              <li>
+                <a href="#portfolio" class="footer__link">My Projects</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Get in Touch</a>
+              </li>
+            </ul>
+
+            <div class="footer__socials">
+              <a href="https://www.facebook.com" target="_blank" class="footer__social">
+                <i class="uil uil-facebook-f footer__icon"></i>
+              </a>
+
+              <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                <i class="uil uil-instagram footer__icon"></i>
+              </a>
+
+              <a href="https://twitter.com/login?lang=en" target="_blank" class="footer__social">
+                <i class="uil uil-twitter-alt footer__icon"></i>
+              </a>
+            </div>
+          </div>
+          <p class="footer__copy">&#169 All rights reserved to Salvakam Mohan Hari Krishna</p>
+        </div>
+      </footer>
+
+      <!--scroll Top-->
+
+      <a href="#" class="scroll__up" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+      </a>
+      <script type=text/javascript src=swiper-bundle.min.js></script>
+      <script type=text/javascript src=jscript.js></script>
+    </body>
+</html>
